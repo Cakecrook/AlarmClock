@@ -1,7 +1,5 @@
-The inspiration for this project came from my desire to wake up to a certain song, and finding out that there weren't any applications that would do this for me. I was surprised because I figured it wouldn't be very hard to code such an application.
+This program asks the user when they want an alarm to go off, and plays an mp3 file at those times.
 
-At first I wanted to code something that would allow me to play a user-specified song on spotify. Unfortunately I struggled with spotipy, so I looked into easier solutions. I found that playsound was a much more cooperative library, and that it would work just fine. 
+It's a simple solution, with little elegance, but I'm thinking about ways to improve it. I could give it an actual interface with tkinter, or have it search for and play a user-specified youtube video instead of needing to download an mp3 file and include it in the code.
 
-So I downloaded an mp3 file of the song I wanted to get up to and got coding. I'm not going to include the mp3 file or the name of the song in my repository.
-
-It's a simple solution, with little elegance, but I'm thinking about ways to improve it. I could give it a user interface with tkinter, or have it search for and play a user-specified youtube video. 
+NOTE: The sleep function in the else statement is meant to slow the while loop, but it does mean that the alarm won't go off right at the time specified. If you don't plan on running this program in the background, then you can remove the else statement.
